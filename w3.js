@@ -428,3 +428,5 @@ function includeHTML() {
     }
   }
 }
+
+includeHTML();
