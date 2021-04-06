@@ -1,0 +1,71 @@
+/* header override */
+.navbar-inverseEdit{
+
+    background-color: #145A32;
+}
+.navInlinks>li>a {
+    padding-top: 15px;
+    padding-bottom: 3px;
+}
+
+
+
+
+.navbar-inverse  .colorBrand{
+
+color: white;
+font-weight: 900;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+letter-spacing:1px;
+font-size: 25px;
+}
+
+
+.navbar-inverse .navbar-nav>li>a{
+
+    color:white;
+   font-weight:bolder;
+}
+
+.breadcrumboverRide{
+    margin-top: 40px;
+}
+
+    .navbar-inverse .navInlinks>.active>a, .navbar-inverse .navInlinks>.active>a:focus, .navbar-inverse .navInlinks>.active>a:hover{
+        background-color: white;
+        border-bottom: 7px solid #26931d;
+        color: #28ab82;
+
+    }
+/* footer */
+.footerCon{
+color:#145A32;
+    background-color: black;
+}
+.ulInFooter{
+    margin-bottom: 50px;
+
+
+}
+.ulInFooter>*{
+width: 33%;
+float: right;
+text-align: center;
+color:white ;
+font-size: large;
+}
+.marginButtom{
+    margin-bottom: 120px;
+}
+.ukSocileMedia>*{
+
+float: left;
+margin-right: 3%;
+}
+
+
+.ukSocileMedia{
+    margin-top: 7%;
+    margin-left: 30%;
+    margin-bottom: 20%;
+}

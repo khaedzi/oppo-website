@@ -1,0 +1,68 @@
+/* curule */
+.marginTopForCurule{
+
+    margin-top: 100px;
+}
+
+
+.imageCursole{
+width: 100%;
+height: 450px;
+max-height: 450px;
+
+}
+
+
+@media (min-width: 800px){
+    .itemcon{
+        width: 100%;
+        height: 450px;
+        
+    }
+}
+
+
+
+@media (max-width: 600px){
+
+    .itemcon{
+        width: 100%;
+        height: 210px;
+    }
+}
+
+/* end of curusole */
+
+
+
+.randoImage{
+margin-top: 50px;
+}
+
+
+
+.marginbutninimages{
+margin-bottom: 58px;
+}
+
+
+
+/* start random image section */
+
+
+.thebestthings{
+
+background-color: #c0a69a;
+
+}
+
+.marginH2InTheBest{
+font-size:xx-large;
+line-height: 150px;
+}
+
+#showMoreIcon,#showlessIcon{
+cursor: pointer;
+
+}
+
