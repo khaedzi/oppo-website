@@ -42,7 +42,11 @@ function hideShowLessIcon(){
 hideShowLess.style.display="none";
 
 }
-showlessIcon.addEventListener('click',hideShowLessIcon)
+
+showlessIcon.addEventListener('click',hideShowLessIcon);
 
 plusIcon.addEventListener('click',dhowmoreBestThings);
 
+console.log("khaled");
+
+breadcrumb.style.display="none";

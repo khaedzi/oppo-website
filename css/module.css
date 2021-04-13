@@ -66,3 +66,164 @@ cursor: pointer;
 
 }
 
+
+
+/* /////W11 over riding//// */
+
+
+/* .firstPart{
+    background-image:url("/image/firstImageInw11.jpg");
+    /* height: 200px; */
+
+    .firstImage{
+        position: relative;
+    }
+
+    .h4InFirstImage{
+
+        position: absolute;
+        z-index: 10;
+        top: 50%;
+        color: white;
+        left: 8%;
+        font-weight: 900;
+}
+
+
+.h4SecondInImage{
+    position: absolute;
+    z-index: 10;
+    top: 60%;
+    color: white;
+    left: 21%;
+    font-weight: 900;
+    font-size: 226%;
+
+}
+
+.pthierdInimage{
+    position: absolute;
+    z-index: 10;
+    top: 73%;
+    color: white;
+    left: 9%;
+    font-weight: 900;
+    font-size: 120%;
+
+}
+
+
+.PforthInImage{
+
+    position: absolute;
+    z-index: 10;
+    top: 79%;
+    color: white;
+    left: 18%;
+    font-weight: 900;
+    font-size: 111%;
+}
+
+
+
+
+#hideThiredSection , .marginTopForW11des{
+    transition: 3s;
+    opacity: 1;
+} 
+
+.fa-bluetooth:before {
+
+    color: blue;
+}
+
+#backGround{
+margin-top: 80px;
+    background-color:#F8F8FB;
+    height: 604px;
+    
+}
+
+.resizeImage{
+    max-width: 40%;
+    min-height: 190px;
+}
+
+
+
+
+
+
+@media (min-width: 800px){
+
+    .lineHeight{
+        margin-top: 100px;
+        text-align: right;
+        }
+}
+
+
+@media (min-width: 800px){
+
+    .lineHeight{
+        margin-top: 100px;
+        text-align: right;
+        }
+}
+
+
+
+@media (max-width: 900px){
+
+    .h4InFirstImage {
+        position: absolute;
+        z-index: 10;
+        top: 33%;
+        color: white;
+        left: 8%;
+        font-weight: 900;
+        font-size: 115%;
+    }
+    .pthierdInimage {
+        position: absolute;
+        z-index: 10;
+        top: 52%;
+        color: white;
+        left: 2%;
+        font-weight: 900;
+        font-size: 80%;
+    }
+    .PforthInImage {
+        position: absolute;
+        z-index: 10;
+        top: 59%;
+        color: white;
+        left: 8%;
+        font-weight: 900;
+        font-size: 87%;
+    }
+
+    .h4SecondInImage {
+        position: absolute;
+        z-index: 10;
+        top:39%;
+        color: white;
+        left: 11%;
+        font-size: 227%;
+        font-weight: 900;
+    }
+
+}
+
+
+
+.resizeFont{
+
+
+    font-size: 192%;
+}
+
+.resizeParagragh{
+
+    font-size: 75%;
+}
