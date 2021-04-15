@@ -1,0 +1,34 @@
+/* over raiding our story */
+
+
+.firsth1InOurStory{
+
+font-size: 7vw;
+color: black;
+word-spacing: 2%;
+}
+
+
+.sectionOneInOurStory{
+position: relative;
+width: 100%;
+}
+
+.firstpInOurStory{
+background-color: white;
+width:12%;
+height:8%;
+position: fixed;
+top: 45%;
+left: 45%;
+cursor: pointer;
+border: 1px solid white;
+}
+
+.ss{
+
+    margin-top: 10%;
+}
+#firstVideoInOurStory{
+
+}

@@ -1,3 +1,4 @@
+
 "use strict";
 
 ////Definitions////
@@ -223,6 +224,3 @@ function chan2(one, two) {
   one.style.zIndex = 0;
   console.log("dd");
 }
-
-
-

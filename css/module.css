@@ -214,16 +214,186 @@ margin-top: 80px;
     }
 
 }
-
+.grayBackgroundForSection5{
+margin-top: 7%;
+}
 
 
 .resizeFont{
-
-
     font-size: 192%;
 }
 
 .resizeParagragh{
 
     font-size: 75%;
+}
+
+.inline-blockForDiv{
+margin-right: 10%;
+    display: inline-block;
+    opacity: 0;
+    transition: 2.5s;
+}
+
+.responsiveh3{
+font-size:3vw;
+}
+
+.grayBackgroundForSection4{
+margin-top: 70px;
+    background-color: #F8F8FB;
+    height: 980px;
+}
+
+#resizeHeightForimageFourInSectionFourW11{
+
+height: 600px;
+width: 200%;
+opacity: 0;
+transition:3.7s;
+}
+
+#addWidthForP{
+
+    opacity: 0;
+    transition: 3.2s;
+    margin-left:10%;
+    width: 70%;
+}
+
+#displayFirstheaderInSection4{
+    opacity: 0;
+    transition: 3s;
+}
+.resizeHeightForimageFourInSectionFiveW11{
+    transform: scale(.5);
+    margin-top: -10%;
+}
+
+#displayFirstheaderInSection5{
+margin-bottom: 30px;
+
+
+}
+.grayBackgroundForSection5{
+    opacity: 0;
+    transition: 4s;
+}
+
+
+.backGroundBlack{
+color: white;
+    background-color: black;
+    height: 700px;
+    margin-bottom: 5%;
+}
+
+
+.marginDiv{
+
+    margin-top: 20%;
+}
+
+.resizeHeightForimageFourInSectionSevenW11{
+opacity: 0;
+transition: 4s;
+max-height:600px;
+
+}
+
+
+@media (max-width: 800px){
+    .backGroundBlack{
+        color: white;
+            background-color: black;
+            height: 300px;
+            margin-bottom: 10%;
+        }
+
+
+        .resizeHeightForimageFourInSectionSevenW11{
+            opacity: 0;
+            transition: 4s;
+            max-height:300px;
+            
+            }
+            
+}
+
+
+.marginTopForSectionSeven{
+
+
+    margin-top: 10%;
+}
+
+.marginBottom{
+
+    margin-bottom: 10%;
+}
+#sectionSeven{
+opacity:1;
+transition: 4s;
+}
+
+.resizeImageIsectionEight{
+
+width: 90%;
+
+}
+.pargraghInLianeBlock{
+
+    display: inline;
+font-size: 1.2vw;
+margin-left: 5%;
+
+}
+
+.pargraghInLianeBlock1{
+
+    display: inline;
+font-size: 1.2vw;
+margin-left: 2%;
+
+}
+.pargraghInLianeBlock2{
+
+    display: inline;
+font-size: 1.2vw;
+margin-left: 5%;
+
+}
+.pargraghInLianeBlock3{
+
+    display: inline;
+font-size: 1.2vw;
+margin-left:0;
+
+}
+.pargraghInLianeBlock4{
+
+    display: inline-block;
+font-size: 1.2vw;
+margin-left:4%;
+
+}
+.marginParagragh{
+
+    margin-bottom: 5%;
+}
+#grayBackgroundForSection9{
+    margin-top: 10%;
+    background-color:#f8f8f8 ;
+    height: 1000px;
+}
+#grayBackgroundForSection9 p{
+
+margin-top: 3%;
+margin-bottom: 7%;
+}
+
+.resizeHeightForimageFourInSectionEightW11{
+
+    height: 50%;
+    width: 50%;
 }
