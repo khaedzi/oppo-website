@@ -49,4 +49,4 @@ plusIcon.addEventListener('click',dhowmoreBestThings);
 
 console.log("khaled");
 
-breadcrumb.style.display="none";
+// breadcrumb.style.display="none";
