@@ -35,9 +35,7 @@ pInfirstOne.addEventListener("click", () => {
   mohema.style.zIndex = "0";
   alqiem.style.zIndex = "0";
   roya.style.zIndex = "1";
-  // firstOne1.style.display="block";
-  // secondOne1.style.display="none";
-  // thiredOne1.style.display="none";
+ 
 });
 
 pInsecondOne.addEventListener("click", () => {
@@ -55,9 +53,7 @@ pInsecondOne.addEventListener("click", () => {
   mohema.style.zIndex = "1";
   alqiem.style.zIndex = "0";
   roya.style.zIndex = "0";
-  // firstOne1.style.display="none";
-  // secondOne1.style.display="block";
-  // thiredOne1.style.display="none";
+ 
 });
 pInthiredOne.addEventListener("click", () => {
   mohema.style.opacity = "0";
@@ -75,15 +71,13 @@ pInthiredOne.addEventListener("click", () => {
   roya.style.zIndex = "0";
   mohema.style.zIndex = "0";
   alqiem.style.zIndex = "1";
-  // firstOne1.style.display="none";
-  // secondOne1.style.display="none";
-  // thiredOne1.style.display="block";
+
 });
 
 function scorllingOneInOurStoryPage() {
   if (
-    window.pageYOffset > 300 &&
-    window.pageYOffset < 800 &&
+    window.pageYOffset > 200 &&
+    window.pageYOffset < 700 &&
     $(window).width() > 800
   ) 
   
