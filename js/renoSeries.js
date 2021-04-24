@@ -17,7 +17,7 @@ function Phone(imageOne, moudelOne ,imagetwo , moudeltwo) {
 
 //////prototype////
 
- Phone.prototype.appendNew = function (idOne,idTwo,idThree,idFour,classOne,classTwo){
+Phone.prototype.appendNew = function (idOne,idTwo,idThree,idFour,classOne,classTwo,hrefHtml){
   let section = document.createElement("div");
   section.setAttribute("class", "container");
   ourItems.appendChild(section);
@@ -42,17 +42,22 @@ function Phone(imageOne, moudelOne ,imagetwo , moudeltwo) {
   borederEvery.setAttribute("class",classOne);
   borederEvery.setAttribute("id",idOne);
   firstDevied.appendChild(borederEvery);
+  let A=document.createElement("a");
+  A.setAttribute("href",hrefHtml);
+  A.setAttribute("target","_blank")
+  borederEvery.appendChild(A);
+
   let myImage = document.createElement("img");
   myImage.setAttribute("src",this.imageOne);
   myImage.setAttribute("class", "center-block");
   myImage.classList.add("img-responsive", "imageInOUrItem");
-  borederEvery.appendChild(myImage);
+  A.appendChild(myImage);
   let myNewText = document.createElement("h2");
   let TextInh2 = document.createTextNode(this.moudelOne);
   myNewText.setAttribute("class", "text-center");
   myNewText.classList.add("sytleH2InOurItem");
   myNewText.appendChild(TextInh2);
-  borederEvery.appendChild(myNewText);
+  A.appendChild(myNewText);
   let conFontAoswme = document.createElement("div");
   conFontAoswme.setAttribute("class", "text-center");
   borederEvery.appendChild(conFontAoswme);
@@ -68,18 +73,26 @@ function Phone(imageOne, moudelOne ,imagetwo , moudeltwo) {
   let con2 = document.createElement("div");
   con2.setAttribute("class", classTwo);
   con2.setAttribute("id", idThree);
+
+
   firstDevied.appendChild(con2);
+
+
+  let A2=document.createElement("a");
+  A2.setAttribute("href",hrefHtml);
+  A2.setAttribute("target","_blank")
+  con2.appendChild(A2);
   let MySecondImg = document.createElement("img");
   MySecondImg.setAttribute("src",this.imagetwo);
   MySecondImg.setAttribute("class", "center-block");
   MySecondImg.classList.add("img-responsive", "imageInOUrItem");
-  con2.appendChild(MySecondImg);
+  A2.appendChild(MySecondImg);
   let mySecondH2 = document.createElement("h2");
   let mySecondText = document.createTextNode(this.moudeltwo);
   mySecondH2.setAttribute("class", "text-center");
   mySecondH2.classList.add("sytleH2InOurItem");
   mySecondH2.appendChild(mySecondText);
-  con2.appendChild(mySecondH2);
+  A2.appendChild(mySecondH2);
   let con2forFownts = document.createElement("div");
   con2forFownts.setAttribute("class", "text-center");
   con2.appendChild(con2forFownts);
@@ -103,7 +116,8 @@ PhoneThree.appendNew(
 "borderEveryItem3",
 "changeColorToBlue0",
 "borderEveryItem",
-"borderEveryItem2"
+"borderEveryItem2",
+"/reno5.html"
 );
 
 let PhoneTwo = new Phone("image/reno4blak.png", "Reno 4 Blak" ,"image/reno4Blue.png", "Reno 4 Blue" );
@@ -113,17 +127,19 @@ PhoneTwo.appendNew(
 "borderEveryItem4",
 "changeColorToBlack1",
 "borderEveryItem",
-"borderEveryItem2"
+"borderEveryItem2",
+"/reno4.html"
 );
 
-let PhoneFour = new Phone("image/Reno5-Fblack.png", "Reno 5 Black" ,"image/oppo-reno5-blue.jpg", "Reno 5 Blue" );
+let PhoneFour = new Phone("image/Reno5-Fblack.png", "Reno 5 Black" ,"image/oppo-reno5-blue.jpg", "Reno 5F Blue" );
 PhoneFour.appendNew(
 "borderEveryItem2",
 "changeColorToBlue2",
 "borderEveryItem5",
 "changeColorToBlack2",
 "borderEveryItem",
-"borderEveryItem2"
+"borderEveryItem2",
+"/reno5f.html"
 );
 
 
@@ -134,7 +150,8 @@ PhoneFive.appendNew(
 "borderEveryItem9",
 "changeColorToBlack10",
 "borderEveryItem",
-"borderEveryItem2"
+"borderEveryItem2",
+"/reno4pro.html"
 );
 
 let PhoneSix = new Phone("image/3black.jfif", "Reno 3 black" ,"image/3blue.jfif", "Reno 3 Blue" );
@@ -144,7 +161,8 @@ PhoneSix.appendNew(
 "borderEveryItem10",
 "changeColorToBlack11",
 "borderEveryItem",
-"borderEveryItem2"
+"borderEveryItem2",
+"/reno3.html"
 );
 
 let firs=document.getElementById("borderEveryItem");
