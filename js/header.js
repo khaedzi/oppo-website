@@ -1,6 +1,6 @@
 var submit = document.getElementById("submit2");
 var submitOne = document.getElementById("submitOne");
-let MyPages=["reno","renoz","reno2","reno2f","rino","remo","a","r",,"reno3","reno4","reno4pro","reno3pro","renoseries","reno5","reno5f","rennof","a9","a5s","a5","a52020","a52","a53","a73","a93","a92","a15","coloros","w11","w31"];
+let MyPages=["w31","reno","renoz","reno2","reno2f","rino","remo","a","r",,"reno3","reno4","reno4pro","reno3pro","renoseries","reno5","reno5f","rennof","a9","a5s","a5","a52020","a52","a53","a73","a93","a92","a15","coloros","w11"];
 submit.addEventListener("submit", handle);
 function handle(event) {
   event.preventDefault();
@@ -77,15 +77,14 @@ else if(valueToLowerCase == "oppouserinterface"){
     window.location.replace(`${valueToLowerCase}.html`);
     
   }
-  else {
-      for(let i of MyPages){
-      if(valueToLowerCase==i) {
+
+   else if(MyPages.find(v => (valueToLowerCase === v))){
     window.location.replace(`${valueToLowerCase}.html`);
-  }
-   else{
-  
+
+
+}
+  else { 
     swal({ title: "Nothing matches what you entered in the search field, please try again", icon: "warning" });
    }
-}
 
-}}
+}
