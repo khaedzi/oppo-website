@@ -67,6 +67,12 @@ else if(valueToLowerCase == "oppouserinterface"){
     window.location.replace(`${valueToLowerCase}.html`);
     
   }
+
+  else if(valueToLowerCase == "a520"){
+    let valueToLowerCase = "a52020";
+    window.location.replace(`${valueToLowerCase}.html`);
+    
+  }
   else if(valueToLowerCase == "w" || valueToLowerCase == "w1" || valueToLowerCase == "w11"){
     let valueToLowerCase = "w11";
     window.location.replace(`${valueToLowerCase}.html`);
